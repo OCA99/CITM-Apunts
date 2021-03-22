@@ -20,7 +20,9 @@ Dialogue is inherently interaced with gameplay. Programming dialogue is an itera
   - This database can then be loaded directly into the same as to not store data in code.
   - One good thing about using IDs as identifiers for lines is that localization is just a matter of storing the text for different languages and choosing the correct one on runtime.
 
+##### How do we play a line?
 
+A central 
 
 ##### Localization:
 
@@ -29,6 +31,7 @@ Dialogue is inherently interaced with gameplay. Programming dialogue is an itera
 - Some language dialects differ very much between each other. Eg: A person from Portugal will probably rather play the English version of a game than the Brazilian Portuguese localized version.
 - Account for languages with very long words as they may not fit all UI elements.
 - Chinese, Japanese, Korean and Thai use different punctuation rules, be careful when implementing line breaks.
+- For Chinese characters, only include the glyphs used in your game.
 
 
 
